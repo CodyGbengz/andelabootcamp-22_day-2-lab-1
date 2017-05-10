@@ -24,6 +24,7 @@
  		}
  		else{
  			return this.speed = (val* 11) + ' Km/h';
- 		}
+ 		} 
+ 		return this;
  	} 
  }
