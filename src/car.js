@@ -20,10 +20,10 @@
  	drive(val){
  		if(this.name ==='Porshe'){
  			val *= 50;
- 			return this.speed = val + ' Km/h' ;
+ 			 this.speed = val + ' Km/h' ;
  		}
  		else{
- 			return this.speed = (val* 11) + ' Km/h';
+ 			 this.speed = (val* 11) + ' Km/h';
  		} 
  		return this;
  	} 
